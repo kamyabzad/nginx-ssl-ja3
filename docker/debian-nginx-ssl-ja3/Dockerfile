@@ -29,9 +29,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get install -y --fix-missing \
     llvm \
     libgeoip1 \
     libgeoip-dev \
-    libpcre3 \
-    libpcre3-dbg \
-    libpcre3-dev \
+    libpcre2-dev \
     libperl-dev \
     libmagic-dev \
     libtool \
