@@ -86,7 +86,7 @@ diff -r 2e63d59c342d src/event/ngx_event_openssl.c
 +    size_t                         ext_len;
 +    ngx_connection_t              *c;
 +
-+    c = arg;
++    c = ngx_ssl_get_connection(s);
 +
 +    if (c == NULL) {
 +        return 1;
